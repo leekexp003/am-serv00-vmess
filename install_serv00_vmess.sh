@@ -15,8 +15,8 @@ reading() { read -p "$(red "$1")" "$2"; }
 USERNAME=$(whoami)
 HOSTNAME=$(hostname)
 
-#export UUID=${UUID:-'d36c4d9f-31c4-45f1-8c64-102a6142001e'}
-UUID=${1:-'d36c4d9f-31c4-45f1-8c64-102a6142001e'}
+#export UUID=${UUID:-'6e653acb-bb0a-4b89-80a6-42c9f90e3d6e'}
+UUID=${1:-'6e653acb-bb0a-4b89-80a6-42c9f90e3d6e'}
 export UUID
 echo "Using UUID: $UUID"
 
